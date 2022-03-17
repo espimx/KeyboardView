@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_keyboard_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#FFE0E0E0"/>
+
+    <com.espimx.keyboard.SafeKeyboardView
+        android:id="@+id/safeKeyboardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:background="#FFF5F5F5"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingEnd="8dp"
+        app:enable_vibrate="false"
+        app:keyBackground="@drawable/keyboard_key_background"
+        app:keyTextBold="true"
+        app:keyTextColor="@color/black"
+        app:keyTextSize="23sp"
+        app:keyBackgroundShadowRadius="5"
+        app:keyBackgroundShadowColor="#33000000"
+        app:random_digit="false"
+        tools:ignore="RtlSymmetry" />
+</LinearLayout>

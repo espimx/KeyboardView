@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:horizontalGap="2%p"
+    app:keyWidth="22.5%p"
+    app:keyHeight="46.5dp"
+    app:verticalGap="8dp">
+
+    <Row>
+        <Key
+            app:codes="49"
+            app:keyLabel="1" />
+        <Key
+            app:codes="50"
+            app:keyLabel="2" />
+        <Key
+            app:codes="51"
+            app:keyLabel="3" />
+        <Key
+            app:codes="-5"
+            app:keyLabel=""
+            app:isRepeatable="true" />
+    </Row>
+
+    <Row>
+        <Key
+            app:codes="52"
+            app:keyLabel="4" />
+        <Key
+            app:codes="53"
+            app:keyLabel="5" />
+        <Key
+            app:codes="54"
+            app:keyLabel="6" />
+        <Key
+            app:codes="-4"
+            app:keyLabel="确认"
+            app:keyHeight="155.5dp" />
+    </Row>
+
+    <Row>
+        <Key
+            app:codes="55"
+            app:keyLabel="7" />
+        <Key
+            app:codes="56"
+            app:keyLabel="8" />
+        <Key
+            app:codes="57"
+            app:keyLabel="9" />
+    </Row>
+
+    <Row>
+        <Key
+            app:codes="48"
+            app:keyWidth="71.5%p"
+            app:keyLabel="0" />
+    </Row>
+</Keyboard>

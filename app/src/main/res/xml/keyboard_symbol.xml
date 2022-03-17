@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:keyHeight="46.5dp"
+    app:keyWidth="10%p"
+    app:horizontalGap="1%p"
+    app:verticalGap="8dp">
+    <Row>
+        <Key app:keyWidth="8.9%p" app:codes="33" app:keyLabel="!" app:keyEdgeFlags="left" />
+        <Key app:keyWidth="8.9%p" app:codes="64" app:keyLabel="@string/keyboard_key1" /><!--@-->
+        <Key app:keyWidth="8.9%p" app:codes="35" app:keyLabel="#" />
+        <Key app:keyWidth="8.9%p" app:codes="36" app:keyLabel="$" />
+        <Key app:keyWidth="8.9%p" app:codes="37" app:keyLabel="%" />
+        <Key app:keyWidth="8.9%p" app:codes="94" app:keyLabel="^" />
+        <Key app:keyWidth="8.9%p" app:codes="38" app:keyLabel="@string/keyboard_key2" /><!--&-->
+        <Key app:keyWidth="8.9%p" app:codes="42" app:keyLabel="*" />
+        <Key app:keyWidth="8.9%p" app:codes="40" app:keyLabel="(" />
+        <Key app:keyWidth="8.9%p" app:codes="41" app:keyLabel=")" app:keyEdgeFlags="right" />
+    </Row>
+
+    <Row>
+        <Key app:keyWidth="8.9%p" app:codes="39"
+            app:keyEdgeFlags="left" app:keyLabel="'" />
+        <Key app:keyWidth="8.9%p" app:codes="34" app:keyLabel="@string/keyboard_key3" /> <!--"-->
+        <Key app:keyWidth="8.9%p" app:codes="61" app:keyLabel="=" />
+        <Key app:keyWidth="8.9%p" app:codes="95" app:keyLabel="_" />
+        <Key app:keyWidth="8.9%p" app:codes="58" app:keyLabel=":" />
+        <Key app:keyWidth="8.9%p" app:codes="59" app:keyLabel=";" />
+        <Key app:keyWidth="8.9%p" app:codes="63" app:keyLabel="\?" />
+        <Key app:keyWidth="8.9%p" app:codes="126" app:keyLabel="~" />
+        <Key app:keyWidth="8.9%p" app:codes="124" app:keyLabel="|" />
+        <Key app:keyWidth="8.9%p" app:codes="183" app:keyEdgeFlags="right"
+            app:keyLabel="·" />
+    </Row>
+
+    <Row>
+        <Key app:horizontalGap="3.5%p" app:keyWidth="9%p" app:codes="43" app:keyLabel="+" />
+        <Key app:keyWidth="9%p" app:codes="45" app:keyLabel="-" />
+        <Key app:keyWidth="9%p" app:codes="92" app:keyLabel="\\" />
+        <Key app:keyWidth="9%p" app:codes="47" app:keyLabel="/" />
+        <Key app:keyWidth="9%p" app:codes="91" app:keyLabel="[" />
+        <Key app:keyWidth="9%p" app:codes="93" app:keyLabel="]" />
+        <Key app:keyWidth="9%p" app:codes="123" app:keyLabel="{" />
+        <Key app:keyWidth="9%p" app:codes="125" app:keyLabel="}" />
+        <Key app:horizontalGap="3.5%p" app:keyWidth="13%p" app:codes="-5" app:keyLabel=""
+            app:isRepeatable="true"/>
+    </Row>
+
+    <Row app:rowEdgeFlags="bottom">
+        <Key app:keyWidth="13%p" app:codes="-2"
+            app:keyLabel="123" />
+        <Key app:keyWidth="9%p" app:horizontalGap="1.5%p" app:codes="44" app:keyLabel="," />
+        <Key app:keyWidth="9%p" app:codes="46" app:keyLabel="." />
+        <Key app:keyWidth="9%p" app:codes="60" app:keyLabel="@string/keyboard_key4" />
+        <!--<-->
+        <!-->-->
+        <Key app:keyWidth="9%p" app:codes="62" app:keyLabel="@string/keyboard_key5" />
+        <Key app:keyWidth="9%p" app:codes="8364" app:keyLabel="€" />
+        <Key app:keyWidth="9%p" app:codes="163" app:keyLabel="￡" />
+        <Key app:keyWidth="9%p" app:codes="165" app:keyLabel="¥" />
+        <Key app:keyWidth="13%p" app:codes="100860" app:horizontalGap="1.5%p"
+            app:keyEdgeFlags="right" app:keyLabel="ABC" />
+    </Row>
+</Keyboard>
